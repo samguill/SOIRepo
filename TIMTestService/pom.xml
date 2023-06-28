@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.ericsson.services.ws_cil_5</groupId>
+    <groupId>com.tim.services</groupId>
     <artifactId>TIMTestService</artifactId>
     <version>1.0</version>
     <name>TIMTestService</name>
@@ -32,25 +32,39 @@
 
     <dependencies>
         <dependency>
-            <groupId>br.com.ericsson</groupId>
-            <artifactId>func_frwmwk_srv</artifactId>
-            <version>4.0.0</version>
+            <groupId>bscs.lib.local</groupId>
+            <artifactId>cms</artifactId>
+            <version>1.0</version>
             <scope>system</scope>
-            <systemPath>${bscs.lib.dir}/func_frwmwk_srv.jar</systemPath>
+            <systemPath>${bscs.lib.dir}/cms.jar</systemPath>
         </dependency>
         <dependency>
-            <groupId>br.com.ericsson</groupId>
+            <groupId>bscs.lib.local</groupId>
             <artifactId>func_frwmwk_cmn</artifactId>
-            <version>1.0.0</version>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${bscs.lib.dir}/func_frwmwk_cmn.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>bscs.lib.local</groupId>
+            <artifactId>func_frwmwk_srv</artifactId>
+            <version>1.0</version>
             <scope>system</scope>
             <systemPath>${bscs.lib.dir}/func_frwmwk_srv.jar</systemPath>
         </dependency>
         <dependency>
-            <groupId>br.com.ericsson</groupId>
+            <groupId>bscs.lib.local</groupId>
             <artifactId>func_util</artifactId>
-            <version>1.0.0</version>
+            <version>1.0</version>
             <scope>system</scope>
-            <systemPath>${bscs.lib.dir}/func_frwmwk_srv.jar</systemPath>
+            <systemPath>${bscs.lib.dir}/func_util.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>bscs.lib.local</groupId>
+            <artifactId>soi</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${bscs.lib.dir}/soi.jar</systemPath>
         </dependency>
         <!--
         <dependency>
